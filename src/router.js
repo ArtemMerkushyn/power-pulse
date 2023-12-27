@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
-import { Auth } from './pages/Auth/Auth.jsx';
+import { AuthPage } from './pages/Auth/AuthPage.jsx';
 import { SignUp } from './pages/SignUp/SignUp.jsx';
 import { Diary } from './pages/Diary/Diary.jsx';
 import { Products } from './pages/Products/Products.jsx';
@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Auth/>
+                element: <AuthPage/>
             },
             {
                 path: 'sign-up',
