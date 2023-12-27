@@ -1,11 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
-import { Auth } from './pages/Auth/Auth';
-import { SignUp } from './pages/SignUp/SignUp';
-import { Diary } from './pages/Diary/Diary';
-import { Products } from './pages/Products/Products';
-import { Exercises } from './pages/Exercises/Exercises';
-import { User } from './pages/User/User';
+import { Auth } from './pages/Auth/Auth.jsx';
+import { SignUp } from './pages/SignUp/SignUp.jsx';
+import { Diary } from './pages/Diary/Diary.jsx';
+import { Products } from './pages/Products/Products.jsx';
+import { Exercises } from './pages/Exercises/Exercises.jsx';
+import { User } from './pages/User/User.jsx';
 
 export const router = createBrowserRouter([
     {
