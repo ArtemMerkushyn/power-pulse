@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 export const Headers = styled.header`
     background: inherit;
-    padding: 12px 0;  
+    padding: 12px 0;
 `;
 
 export const Container = styled.div`
@@ -117,12 +117,13 @@ export const Exit = styled(Link)`
 `;
 
 export const Menu = styled.div`
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     transform: translateY(-100%);
-    width: 100vw;
-    height: 100vh;
+    z-index: 10;
     padding: 20px;
     background: #E6533C;
     display: none;
